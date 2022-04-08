@@ -24,8 +24,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.nazwa_domeny.pierwsza_aplikacja_graficzna_javafx.pierwszaaplikacjagraficznajavafx'
-    mainClass = 'com.nazwa_domeny.pierwsza_aplikacja_graficzna_javafx.pierwszaaplikacjagraficznajavafx.HelloApplication'
+    mainModule = 'com.nazwa_domeny'
+    mainClass = 'com.nazwa_domeny.AplikacjaGraficzna'
 }
 
 javafx {

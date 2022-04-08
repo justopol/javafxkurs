@@ -1,4 +1,4 @@
-package com.nazwa_domeny.pierwsza_aplikacja_graficzna_javafx.pierwszaaplikacjagraficznajavafx;
+package com.nazwa_domeny;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,13 +7,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class AplikacjaGraficzna extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Hello!");
-        stage.setScene(scene);
         stage.show();
     }
 
